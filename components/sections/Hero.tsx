@@ -9,13 +9,14 @@ export function Hero() {
       aria-label="Hero"
     >
       <div className="mb-10 inline-flex items-center gap-3">
-        <div className="h-10 w-10 overflow-hidden rounded-xl border border-neutral-800" aria-hidden>
-          <img src="/visomaticlogo.png" alt="Visomatic logo icon" className="h-full w-full object-cover" />
+        <div className="h-10 w-10 grid place-items-center rounded-xl border border-neutral-800 text-[#C9A15B]" aria-hidden>
+          <span className="font-black text-xl">V</span>
         </div>
         <span className="font-black text-xl tracking-wide text-[#C9A15B]">
           VISOMATIC
         </span>
       </div>
+
 
       <h1 className="text-4xl md:text-6xl font-black text-white tracking-tight leading-tight max-w-3xl">
         High-end editing for visual creators
