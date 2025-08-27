@@ -14,9 +14,9 @@ export function Header() {
         >
           <div
             aria-hidden
-            className="h-8 w-8 overflow-hidden rounded-lg border border-neutral-800"
+            className="h-8 w-8 grid place-items-center rounded-lg border border-neutral-800 text-[#C9A15B]"
           >
-            <img src="/visomaticlogo.png" alt="Visomatic logo icon" className="h-full w-full object-cover" />
+            <span className="font-extrabold tracking-tight">V</span>
           </div>
           <span className="font-black text-lg tracking-wide text-[#C9A15B]">
             VISOMATIC
